@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                         @Override
                         public void run() {
 
-                            Toast.makeText(activity, result.getText(), Toast.LENGTH_SHORT).show();
+                            Toast.makeText(activity, result.getText(), Toast.LENGTH_LONG).show();
                             t1.speak(result.getText(), TextToSpeech.QUEUE_FLUSH, null);
                         }
                     });
